@@ -9,14 +9,18 @@ export const DECREMENT = 'DECREMENT';
 // logic of updating the centra Redux store. That
 // is left to the reducer(s).
 
+//action creator
 export const increment = () => {
    // Fill in this function 
-   {
-       type: INCREMENT,
+   return {
+       type: INCREMENT
    }
 };
 
-
+//Action creator
 export const decrement = () => {
    // Fill in this function 
+   return {
+       type: DECREMENT
+   }
 };
